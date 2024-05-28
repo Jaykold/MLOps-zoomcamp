@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b-cichebi/Documents/MLOps-zoomcamp/mlruns/0/0421885db9654e69b40de4a4e4a179c6/artifacts
+end_time: 1716892073296
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0421885db9654e69b40de4a4e4a179c6
+run_name: caring-owl-307
+run_uuid: 0421885db9654e69b40de4a4e4a179c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716892073175
+status: 4
+tags: []
+user_id: b-cichebi

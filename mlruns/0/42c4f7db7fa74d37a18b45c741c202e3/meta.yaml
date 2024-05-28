@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b-cichebi/Documents/MLOps-zoomcamp/mlruns/0/42c4f7db7fa74d37a18b45c741c202e3/artifacts
+end_time: 1716893239422
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 42c4f7db7fa74d37a18b45c741c202e3
+run_name: chill-ox-379
+run_uuid: 42c4f7db7fa74d37a18b45c741c202e3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716893239327
+status: 4
+tags: []
+user_id: b-cichebi

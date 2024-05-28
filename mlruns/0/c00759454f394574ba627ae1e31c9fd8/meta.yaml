@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b-cichebi/Documents/MLOps-zoomcamp/mlruns/0/c00759454f394574ba627ae1e31c9fd8/artifacts
+end_time: 1716893710359
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c00759454f394574ba627ae1e31c9fd8
+run_name: learned-shoat-517
+run_uuid: c00759454f394574ba627ae1e31c9fd8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716893710282
+status: 4
+tags: []
+user_id: b-cichebi

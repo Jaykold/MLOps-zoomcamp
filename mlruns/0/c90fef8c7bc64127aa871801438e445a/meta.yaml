@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b-cichebi/Documents/MLOps-zoomcamp/mlruns/0/c90fef8c7bc64127aa871801438e445a/artifacts
+end_time: 1716894185774
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c90fef8c7bc64127aa871801438e445a
+run_name: receptive-toad-498
+run_uuid: c90fef8c7bc64127aa871801438e445a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716894185726
+status: 4
+tags: []
+user_id: b-cichebi

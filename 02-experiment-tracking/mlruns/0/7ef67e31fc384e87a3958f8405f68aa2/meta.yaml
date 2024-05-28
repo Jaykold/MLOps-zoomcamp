@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/b-cichebi/Documents/MLOps-zoomcamp/02-experiment-tracking/mlruns/0/7ef67e31fc384e87a3958f8405f68aa2/artifacts
+end_time: 1716894426200
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 7ef67e31fc384e87a3958f8405f68aa2
+run_name: fortunate-loon-924
+run_uuid: 7ef67e31fc384e87a3958f8405f68aa2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1716894384719
+status: 3
+tags: []
+user_id: b-cichebi
