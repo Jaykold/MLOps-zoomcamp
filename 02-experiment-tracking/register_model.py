@@ -30,15 +30,6 @@ def train_and_log_model(data_path, params):
     with mlflow.start_run():
         new_params = {}
         for param in RF_PARAMS:
-            print(param)
-            print(f"{params[param]}")
-            try:
-                
-                new_params[param] = int(params[param])
-            except ValueError:
-                print(f"Invalid value for {param}: {params[param]}")
-                new_params[param] = params[param]
-            
             new_params[param] = int(params[param])
 
         rf = RandomForestRegressor(**new_params)
@@ -83,8 +74,7 @@ def run_register_model(data_path: str, top_n: int):
         experiment_ids = experiment.experiment_id,
         run_view_type = ViewType.ACTIVE_ONLY,
         max_results = top_n,
-        order_by = ["metrics.test_rmse ASC"]
-      )[0]
+        order_by = ["metrics.test_rmse ASC"])[0]
 
     # Register the best model
     run_id = best_run.info.run_id

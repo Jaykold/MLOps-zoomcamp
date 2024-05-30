@@ -28,8 +28,9 @@ def run_train(data_path: str):
 
     with mlflow.start_run():
 
-        fx = os.path.join(data_path, "train.pkl")
-        print(fx, "hgfdfghjklkjhgfd")
+        mlflow.set_tag("model", "random_forest")
+        mlflow.set_tag("developer", "Christian")
+        mlflow.autolog(log_datasets = False)
 
         X_train, y_train = load_pickle(os.path.join(data_path, "train.pkl"))
         X_val, y_val = load_pickle(os.path.join(data_path, "val.pkl"))
@@ -40,6 +41,7 @@ def run_train(data_path: str):
 
         rmse = mean_squared_error(y_val, y_pred, squared=False)
 
+        mlflow.log_metric("rmse", rmse)
 
 if __name__ == '__main__':
     run_train()
